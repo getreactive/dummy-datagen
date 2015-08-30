@@ -1,5 +1,6 @@
 /RUNNING_PID
 .idea/
+*.csv
 .idea
 /logs/
 /project/*-shim.sbt
