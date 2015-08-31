@@ -113,7 +113,6 @@ object RetailSample {
       for(currentday <- 1 until NUMDAYS) {
         day += 1
         var currenthour = 0
-
         for(currenthour <- 1 until NUMHOURS){
           var current_timestamp = getTimestamp(calendar, month - 1, currentday, currenthour)
 
@@ -195,11 +194,6 @@ object RetailSample {
 
         }
       }
-
-
-
-
-
      }
 
     writer.close()
